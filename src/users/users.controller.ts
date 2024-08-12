@@ -13,7 +13,7 @@ import { Roles } from "../auth/roles-auth.decorator"
 import { RolesGuard } from "../auth/auth-jwt-roles.guard"
 
 @Controller('users')
-@ApiTags('Administration / Администрирование')
+@ApiTags('Others / Остальные')
 @ApiSecurity('x-bearer-token')
 // @Roles("USER")
 // @UseGuards(RolesGuard)

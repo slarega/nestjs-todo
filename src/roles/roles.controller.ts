@@ -6,7 +6,7 @@ import { ApiCreatedResponse, ApiOkResponse, ApiOperation, ApiTags } from "@nestj
 import { RoleEntity } from "./entities/role.entity"
 
 @Controller('roles')
-@ApiTags('Administration / Администрирование')
+@ApiTags('Others / Остальные')
 export class RolesController {
   constructor(private readonly rolesService: RolesService) {}
 
